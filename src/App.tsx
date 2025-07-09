@@ -221,7 +221,7 @@ function App() {
 
       <footer className="container mx-auto px-6 py-8 mt-16">
         <div className="text-center text-gray-400">
-          <p>&copy; 2024 DuoMusic. Um projeto de graduação para aprender música através de aulas interativas de piano.</p>
+          <p>&copy; 2025 DuoMusic. Um projeto de graduação para aprender música através de aulas interativas de piano.</p>
         </div>
       </footer>
     </div>

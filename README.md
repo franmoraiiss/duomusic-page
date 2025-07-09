@@ -1,69 +1,71 @@
-# React + TypeScript + Vite
+# DuoMusic - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for **DuoMusic**, an interactive piano learning application. This project serves as the official download and information hub for the DuoMusic PWA (Progressive Web App).
 
-Currently, two official plugins are available:
+## 🎵 About DuoMusic
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+DuoMusic is an innovative piano learning platform that helps users master the piano through:
 
-## Expanding the ESLint configuration
+- **Interactive Lessons**
+- **Personalized Learning**
+- **Progress Tracking**
+- **Cross-Platform**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Modern UI/UX**: Beautiful gradient design with smooth animations
+- **Responsive Design**: Optimized for tablet and mobile devices
+- **Download Integration**: Direct links to Android APK and iOS builds
+- **PWA Support**: Web-based version accessible via browser
+- **TypeScript**: Full type safety and modern development experience
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📱 Download Options
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The landing page provides multiple ways to access DuoMusic:
+
+1. **Android**: Direct APK download
+2. **iOS**: ZIP file with installation instructions
+3. **Web Browser**: PWA version accessible online
+4. **GitHub Releases**: Latest versions and documentation
+
+## 🏃‍♂️ Getting Started
+
+### Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Available Scripts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🌐 Live Demo
+
+Visit the live landing page: [DuoMusic Landing Page](https://duomusic-page.vercel.app/)
+
+## 📦 Related Projects
+
+- **DuoMusic PWA**: [https://duomusic-pwa.vercel.app/](https://duomusic-pwa.vercel.app/)
+- **GitHub Repository**: [https://github.com/franmoraiiss/duomusic-pwa](https://github.com/franmoraiiss/duomusic-pwa)
+
+## 📄 License
+
+This project is private and proprietary.
+
+---
+
+*Built with ❤️ for music education*
